@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "New",
+  "info": {
+    "name": "New",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title_pl": {
+      "type": "string"
+    },
+    "description_pl": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "description_en": {
+      "type": "text"
+    }
+  }
+}
