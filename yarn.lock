@@ -9812,7 +9812,7 @@ strapi-plugin-users-permissions@3.3.4:
     strapi-utils "3.3.4"
     uuid "^3.1.0"
 
-strapi-provider-email-sendmail@3.3.4:
+strapi-provider-email-sendmail@3.3.4, strapi-provider-email-sendmail@^3.3.4:
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/strapi-provider-email-sendmail/-/strapi-provider-email-sendmail-3.3.4.tgz#d871d92892ac23d9391ab2b1c553eae89660208d"
   integrity sha512-ErtNGjKsFmQjr4BjasNNXGNORWC7VZ/pwZ065SSZVU2ft9xTdNJkB8PT7qpy+T8McC26bYMAUUYDHewg9SC/AA==
