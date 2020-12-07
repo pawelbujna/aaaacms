@@ -27,6 +27,10 @@ module.exports = {
       from: entity.email,
       replyTo: entity.email,
       subject: entity.subject,
+      providerOptions: {
+        apiKey:
+          "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",
+      },
       html: `<div>
       <p>${entity.name} ${entity.phone ? entity.phone : ""}</p>
       <br />
