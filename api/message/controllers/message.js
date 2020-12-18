@@ -23,8 +23,8 @@ module.exports = {
     }
 
     await strapi.plugins["email"].services.email.send({
-      // to: "pawelbujna@gmail.com",
-      to: "biuro@adblind.pl",
+      to: "pawelbujna@gmail.com",
+      // to: "biuro@adblind.pl",
       from: entity.email,
       replyTo: entity.email,
       subject: entity.subject,
